@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Syed Fahad Hussain Zaidi — Resume</title>
+<style>
+  @page { size: A4; margin: 18mm 16mm; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: Calibri, "Segoe UI", Arial, sans-serif;
+    color: #1a1a1a;
+    font-size: 10.5pt;
+    line-height: 1.35;
+    margin: 0;
+  }
+  .header { text-align: center; margin-bottom: 10px; }
+  .header h1 { font-size: 18pt; margin: 0 0 4px; }
+  .header .contact { font-size: 9.5pt; color: #333; }
+  .header .contact a { color: #333; text-decoration: none; }
+  h2.section {
+    font-size: 11pt;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: #1f4e79;
+    border-bottom: 1px solid #1f4e79;
+    margin: 12px 0 6px;
+    padding-bottom: 2px;
+  }
+  p { margin: 4px 0; }
+  ul { margin: 4px 0; padding-left: 16px; }
+  li { margin-bottom: 2px; }
+  .row { display: flex; justify-content: space-between; align-items: baseline; }
+  .role { font-style: italic; }
+  .date { font-size: 9.5pt; color: #444; white-space: nowrap; }
+  .skill-line strong { color: #1f4e79; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Syed Fahad Hussain Zaidi</h1>
+  <div class="contact">
+    <a href="mailto:syed.fahadhz97@gmail.com">syed.fahadhz97@gmail.com</a> |
+    <a href="https://www.linkedin.com/in/syed-fahad-hussain-zaidi-757013162/">LinkedIn</a> |
+    Portfolio
+  </div>
+</div>
+
+<h2 class="section">Summary</h2>
+<p>Cloud Security Engineer with 4+ years securing Azure and AWS environments across identity, endpoint, network, and
+data security, with a track record of building the internal tooling and automation that security operations run on
+rather than only operating vendor products. Experienced designing IAM and Zero Trust controls, running SIEM-based
+detection and response, and using Infrastructure as Code and AI-assisted development to turn manual security
+processes into repeatable systems. Holds Microsoft Certified: Azure Infrastructure Solutions and CompTIA Security+
+certifications, currently pursuing AZ-500.</p>
+
+<h2 class="section">Skills &amp; Interests</h2>
+<p class="skill-line"><strong>Cloud Platforms:</strong> Microsoft Azure (Entra ID, Sentinel, Defender, Intune, Azure Virtual Desktop, Landing Zones, ExpressRoute, VNETs), AWS (GuardDuty, CloudTrail, EKS, IAM, CloudFormation), Microsoft 365</p>
+<p class="skill-line"><strong>Identity &amp; Access Management:</strong> MFA, SSO, RBAC, PIM, Conditional Access, PAM, Microsoft Graph PowerShell</p>
+<p class="skill-line"><strong>Endpoint &amp; Network Security:</strong> SentinelOne, EDR, application whitelisting, IDS/IPS, VPNs, NAC, web filtering, firewalls</p>
+<p class="skill-line"><strong>Security Operations:</strong> SIEM (Microsoft Sentinel), log management, vulnerability management, threat hunting, incident response, eDiscovery</p>
+<p class="skill-line"><strong>Automation &amp; Infrastructure as Code:</strong> Terraform, ARM templates, Bicep, PowerShell, Azure DevOps, DevSecOps practices</p>
+<p class="skill-line"><strong>AI-Assisted Engineering:</strong> Rapid prototyping and internal tool development with Claude/Cowork, OpenAI Codex, Devin, and Replit; workflow automation with AI agents (Hermes Agent)</p>
+
+<h2 class="section">Certifications</h2>
+<ul>
+  <li>Microsoft Certified: Azure Infrastructure Solutions</li>
+  <li>CompTIA Security+ ce Certification</li>
+</ul>
+
+<h2 class="section">Professional Experience</h2>
+
+<div class="row">
+  <strong>Savvital</strong>
+  <span class="date">Jun 2022 – Present</span>
+</div>
+<div class="row">
+  <span class="role">Cloud Security Engineer</span>
+  <span class="date">Islamabad, Pakistan</span>
+</div>
+<ul>
+  <li>Cut endpoint malware exposure 60%+ across Azure Virtual Desktop by deploying and tuning EDR, device control, and application whitelisting. Quarantined 3,000+ malware instances.</li>
+  <li>Tuned Defender for Office 365 and Exchange Online threat policies across 180,000+ scanned emails, mostly to fix a false-positive problem without losing real phishing and malware catches.</li>
+  <li>Triaged and investigated 1,000+ security alerts through Microsoft Sentinel and endpoint telemetry, prioritized by risk.</li>
+  <li>Resolved 2,000+ IT and security service requests at a 95% resolution rate.</li>
+  <li>Ran identity security in Entra ID, MFA, Conditional Access, RBAC, PIM, least-privilege access without making people's login painful.</li>
+  <li>Built a database-backed dashboard for client onboarding/issue tracking, covering check-ins, reported issues, timestamps, and resolutions.</li>
+  <li>Automated recurring Microsoft 365 identity work, bulk group membership and calendar-sharing changes, with Microsoft Graph and PowerShell.</li>
+  <li>Automated onboarding and service-request workflows with AI agents (Hermes Agent) and Claude-based tooling.</li>
+  <li>Rolled out Azure Landing Zone architecture with ExpressRoute as the standard pattern for new workloads.</li>
+  <li>Provisioned and hardened Azure resources with Terraform, ARM, and Bicep, which cut down on configuration drift between environments.</li>
+  <li>Built incident response around Microsoft 365 audit logs, eDiscovery, and Microsoft Purview, including eDiscovery permissions and formal incident reports.</li>
+  <li>Set up Azure backup and recovery on Blob, Queue, and Table Storage, and handled the risk assessment and audit-prep side of compliance.</li>
+</ul>
+
+<div class="row">
+  <strong>Roots International Schools</strong>
+  <span class="date">Feb 2021 – Feb 2022</span>
+</div>
+<div class="row">
+  <span class="role">IT Officer</span>
+  <span class="date">Islamabad, Pakistan</span>
+</div>
+<ul>
+  <li>Configured and managed firewalls, IDS/IPS, and Azure VPNs, reducing unauthorized network access incidents.</li>
+  <li>Monitored endpoints and Active Directory for vulnerabilities, using identity and access management controls to prevent security breaches.</li>
+  <li>Ran data backup and disaster recovery operations that maintained data integrity and minimized downtime during system failures.</li>
+  <li>Authored IT process and systems documentation that improved team efficiency and standardized compliance with security protocols.</li>
+</ul>
+
+<h2 class="section">Projects</h2>
+
+<p><strong>Secsailor, Internal Cloud Security Decision-Support Platform</strong> (personal project)<br>
+Problem: cloud service selection, architecture, and security decisions across AWS, Azure, and GCP were made ad hoc,
+with no shared reference for which service or pattern fit a given scenario. Built an internal tool that codifies
+decision criteria for service selection, architecture choice, and security considerations across common
+integration, migration, and cloud-adoption scenarios — giving a repeatable, documented basis for cloud architecture
+and security recommendations.</p>
+
+<p><strong>Threat Detection with AWS GuardDuty</strong> — Jan 2025<br>
+Deployed an intentionally vulnerable web application (OWASP Juice Shop) via AWS CloudFormation to build a
+controlled environment for cloud security testing. Ran simulated attacks against the environment and evaluated
+GuardDuty's detection and reporting accuracy against known attack patterns.</p>
+
+<p><strong>AWS Security Monitoring Pipeline</strong> — Mar 2025<br>
+Configured CloudTrail logging and CloudWatch alarms with SNS notifications to build an end-to-end audit and
+alerting pipeline for AWS account activity. Validated the pipeline by simulating security events, confirming
+alerts and notifications fired as designed.</p>
+
+<p><strong>Kubernetes Cluster on AWS EKS</strong> — Apr 2025<br>
+Deployed and managed a Kubernetes cluster on Amazon EKS using CloudFormation and IAM, gaining hands-on experience
+configuring and scaling containerized workloads securely.</p>
+
+<h2 class="section">Education</h2>
+<div class="row">
+  <strong>PMAS-Arid Agriculture University</strong>
+  <span class="date">Oct 2016 – Sep 2020</span>
+</div>
+<p>Bachelor of Science, Information Technology</p>
+
+</body>
+</html>
